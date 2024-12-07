@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:weightSum="1"
+     android:orientation="horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_weight="0.4"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher">
+
+    </ImageView>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="25dp"
+         android:layout_weight="0.6"
+         android:fontFamily="@font/aclonica"
+         android:text="hello akki"
+         android:textColor="@color/black"
+         android:textStyle="italic|bold">
+
+     </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="click me">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="click me">
+
+    </Button>
+    </LinearLayout>
+
+
+</LinearLayout>
